@@ -1,0 +1,121 @@
+html,body
+{
+    width: 99%;
+    height: 99%;
+    color: #191970;
+    padding: 0px;
+    margin: 0%;
+}
+
+label,input
+{
+    display: block;
+    padding: 5px;
+    width: 75%;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+form
+{
+    padding: 25px;
+    border: 1px solid #191970;
+    width: 50%;
+    margin-left: 15%;
+    border-radius: 15px;
+    float: left;
+    margin: 50px 100px;
+}
+
+input
+{
+    margin-bottom: 15px;
+    border: #191970 1px solid;
+}
+
+.errors
+{
+    display: inline;
+    color: red;
+    margin: auto;
+}
+
+main
+{
+   width: 100%;
+   margin: auto; 
+}
+
+section
+{
+    display: inline;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#address
+{
+    width: 88%;
+}
+
+#submit
+{
+    background-color: #191970;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    display: block;
+    width: 50%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#submit:hover
+{
+    background-color: rgba(25, 25, 112, 0.85);
+    border-color: rgba(25, 25, 112, 0.85);
+}
+
+aside
+{
+    float: left;
+    padding: 15px 45px;
+    width: 15%;
+}
+
+aside>p, aside>button
+{
+    width: 100%;
+    border: 1px solid #191970;
+    border-radius: 15px;
+}
+
+aside>p
+{
+    height: 500px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+aside>button
+{
+    height: 60px;
+    padding: 15px;
+    background-color: #191970;
+    color: white;
+    cursor: pointer;
+    
+}
+aside>button:hover
+{
+    background-color: rgba(25, 25, 112, 0.85);
+}
+
+.image
+{
+    border: none;
+}
+
+
+
